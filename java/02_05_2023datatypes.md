@@ -7,6 +7,8 @@ array syntax: type []var-name = new type [size];
 
 for code visualization: https://pythontutor.com/visualize.html#mode=edit
 
+y array: https://www.youtube.com/watch?v=-OH3d2Zu_gA&list=PLrKBFf87Cy9CHAyhX9l0rhktvg3pCG5R5&index=15
+
 ref: https://www.w3schools.com/java/java_arrays.asp
 
 https://www.w3schools.com/java/java_ref_string.asp
