@@ -56,53 +56,34 @@ https://www.youtube.com/watch?v=GtsoUtGXu4Q
 
 ![image](https://user-images.githubusercontent.com/90038032/236409293-4b871466-3cd6-4bf5-80ad-89e16402dfba.png)
 
------------------------------------------FIND THE ERRORS ------------------------------------------------------------------------------
+--------------------------------------------ENCAPSULATION---------------------------------------------------------------------------
 
-interface A {
- void m1();
-}
-public class B implements A {
-void m1(){
-  System.out.println("One"); 	
- }
-}
-
-solution: Ans: We cannot reduce the visibility of inherited method from interface A.
+![image](https://user-images.githubusercontent.com/90038032/236411259-07a461de-e566-4f22-913b-3c6f60de408d.png)
 
 -----------------------------------------------------------------------------------------------------------------------
-interface A {
- A() { }	
- void m1();
-}
-public abstract class B implements A {
-public void m1(){
-  System.out.println("One"); 	
- }
-}
-Ans: An interface cannot have a constructor.
+![image](https://user-images.githubusercontent.com/90038032/236411322-792db945-802b-4878-9667-20a008a36a98.png)
 
 -----------------------------------------------------------------------------------------------------------------------
-practice problem on abstract class and interface
-
-1.Create an abstract class pen with methods write () and refill () as abstract methods 
-2..Use the pen class from Q1 to create a concrete class fountain pen with additional method change Nib ()
-3.Create a class monkey with jump ( ) and bite ( ) methods Create a class human whichinherits this monkey class and implements basicanimal interface with eat ( ) and sleep methods 
-4.Create a class telephone with ( ) , lift ( ) and disconnected ( ) methods as abstract methods create another class smart telephone and demonstrate polymorphism 
-5.Demonstrate polymorphism using using monkey  class from Q3 
-6.Create an interface TVremote and use it to inherit another interface smart TVremote 
-7.Create a class TV which implements TVremote interface from Q6
+![image](https://user-images.githubusercontent.com/90038032/236411367-60446953-d910-4d34-a67e-20608e4618d7.png)
 
 -----------------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/90038032/236411431-97037d35-5928-41d0-8286-e7541942e804.png)
 
 -----------------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/90038032/236411465-c54a0978-ae9d-4655-b6e3-739374f999ad.png)
 
------------------------------------------------------------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/90038032/236411512-139c35da-5bb6-40d9-8416-cc1b63906c71.png)
 
------------------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/90038032/236411573-3dccb21b-3f77-40d7-a4fe-0d6059acdfe3.png)
 
------------------------------------------------------------------------------------------------------------------------
+https://www.w3schools.com/java/ref_keyword_static.asp
+
+![image](https://user-images.githubusercontent.com/90038032/236411676-84c290bf-1c8c-4dbe-8e36-9742246ca4b7.png)
+
+![image](https://user-images.githubusercontent.com/90038032/236411723-663c5a81-d822-45f3-882e-8e3be1f9dccd.png)
+
+![image](https://user-images.githubusercontent.com/90038032/236411767-4718d485-950c-4ae0-81f1-5829f051bd6c.png)
 
  
  
