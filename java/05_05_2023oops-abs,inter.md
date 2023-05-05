@@ -24,6 +24,32 @@ class A   = parent class, base class, super lass ->. class wose feature are inhe
 |
  class B	= child class, sub class , derived class, extended class  class that inherites other class
  
+ ![image](https://user-images.githubusercontent.com/90038032/236408469-d199dd19-147a-4066-ae8f-77e4dd9cf17c.png)
+
+![image](https://user-images.githubusercontent.com/90038032/236408507-e2c2f932-bf8e-49b8-b6d1-da164c87a67c.png)
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+------------------------------------------------------------------------------------------------------------------------------------------------------- 
+ 
  https://www.programiz.com/java-programming/super-keyword
  
 ![image](https://user-images.githubusercontent.com/90038032/214365981-3b4d61c0-ad90-4230-8e5f-e6c206ac1ba5.png)
