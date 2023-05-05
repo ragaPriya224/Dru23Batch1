@@ -1,1 +1,3 @@
-https://www.geeksforgeeks.org/valid-variants-main-java/
+main  variant: https://www.geeksforgeeks.org/valid-variants-main-java/
+
+
