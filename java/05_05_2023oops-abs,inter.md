@@ -56,16 +56,41 @@ https://www.youtube.com/watch?v=GtsoUtGXu4Q
 
 ![image](https://user-images.githubusercontent.com/90038032/236409293-4b871466-3cd6-4bf5-80ad-89e16402dfba.png)
 
+-----------------------------------------FIND THE ERRORS ------------------------------------------------------------------------------
+
+interface A {
+ void m1();
+}
+public class B implements A {
+void m1(){
+  System.out.println("One"); 	
+ }
+}
+
+solution: Ans: We cannot reduce the visibility of inherited method from interface A.
+
 -----------------------------------------------------------------------------------------------------------------------
-
-
+interface A {
+ A() { }	
+ void m1();
+}
+public abstract class B implements A {
+public void m1(){
+  System.out.println("One"); 	
+ }
+}
+Ans: An interface cannot have a constructor.
 
 -----------------------------------------------------------------------------------------------------------------------
+practice problem on abstract class and interface
 
-
-
------------------------------------------------------------------------------------------------------------------------
-
+1.Create an abstract class pen with methods write () and refill () as abstract methods 
+2..Use the pen class from Q1 to create a concrete class fountain pen with additional method change Nib ()
+3.Create a class monkey with jump ( ) and bite ( ) methods Create a class human whichinherits this monkey class and implements basicanimal interface with eat ( ) and sleep methods 
+4.Create a class telephone with ( ) , lift ( ) and disconnected ( ) methods as abstract methods create another class smart telephone and demonstrate polymorphism 
+5.Demonstrate polymorphism using using monkey  class from Q3 
+6.Create an interface TVremote and use it to inherit another interface smart TVremote 
+7.Create a class TV which implements TVremote interface from Q6
 
 -----------------------------------------------------------------------------------------------------------------------
 
