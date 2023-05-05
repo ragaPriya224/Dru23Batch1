@@ -8,5 +8,28 @@ https://www.w3schools.com/java/java_abstract.asp
 
 https://www.w3schools.com/java/java_interface.asp
 
+//interf1  extends  interf2
+
+//Class1  implements Interf1
+
+//class Class1  extends Class2
+
+//Class1 extends Class2  implements Interf1,Interf2
+
+
+class B extends A{}
+
+
+class A   = parent class, base class, super lass ->. class wose feature are inherited
+|
+ class B	= child class, sub class , derived class, extended class  class that inherites other class
+ 
+ https://www.programiz.com/java-programming/super-keyword
+ 
+
+ 
+ ![image](https://user-images.githubusercontent.com/90038032/213775029-0ffef740-a18c-49b0-a923-cfcfbe47a1e6.png)
+
+
 
 
