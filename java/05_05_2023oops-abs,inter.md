@@ -28,7 +28,6 @@ class A   = parent class, base class, super lass ->. class wose feature are inhe
  
 
  
- ![image](https://user-images.githubusercontent.com/90038032/213775029-0ffef740-a18c-49b0-a923-cfcfbe47a1e6.png)
 
 
 
