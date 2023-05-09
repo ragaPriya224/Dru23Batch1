@@ -2,13 +2,13 @@ how to approach the collections concept in java
 
 1. LIST, SET STRUCTURE MUGUP (ignore version, just remember the parent, child, which is class, interface )
 
-3. imp point: duplicate allowable? insertion order maintainable?
+2. imp point: duplicate allowable? insertion order maintainable?
 
-5.try using common methods in arraylist, linkedlist, hashset, linkedhashset, treeset
+3.try using common methods in arraylist, linkedlist, hashset, linkedhashset, treeset
 
 add, addAll, clear, contains, isEmpty, remove, size
 
-4.arraylist  -> dup ok
+4.**arraylist**  -> dup ok
 
 order ok
 
@@ -22,7 +22,7 @@ so explore:
 
 add, addAll,  remove,  get,indexOf, lastIndexof, set-> replace 
 
-5. linkedlist
+5. **linkedlist**
 
 dup ok
 
@@ -47,7 +47,7 @@ removeFirst
 
 removeLast
 
-6. difference between arraylist and linkedlist, as we have completed both the topics completely
+6. **difference between arraylist and linkedlist**, as we have completed both the topics completely
 
      ArrayList                	linkedList
      
@@ -80,7 +80,7 @@ and also note, how the datas are stored(their insertion order) and whether dupli
 
 8. then we have to explore treeset, which is implementation class of sortedset and navigable set
 
-in treeset object, try checking whether dup allowed, insertion order, null allowed, hetero datas allowed. 
+in **treeset** object, try checking whether dup allowed, insertion order, null allowed, hetero datas allowed. 
 
 explore special methods such as: 
 
