@@ -22,8 +22,14 @@ FULLY CHECKED EXCEPTION: if and only if all it's child classes are chcked. eg: i
 
 PARTIALLY CHECKED EXCEPTION : if all it's child classes are unchecked . eg: exception , throwable 
 
+---------------------------------------------------------------------------------------------------
+
+![image](https://github.com/ragaPriya224/Dru23Batch1/assets/90038032/1542a2ae-4817-4d3f-aee3-028e15e41e51)
+
+![image](https://github.com/ragaPriya224/Dru23Batch1/assets/90038032/b8c4d195-92e4-476f-a0b0-07842da99bde)
 
 
+![image](https://github.com/ragaPriya224/Dru23Batch1/assets/90038032/e8cdb0fc-748f-4635-b619-858e7998d8ba)
 
 
 ![image](https://github.com/ragaPriya224/Dru23Batch1/assets/90038032/26363467-c6c9-4a92-beda-2f2e951114c0)
