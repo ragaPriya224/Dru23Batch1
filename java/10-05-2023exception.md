@@ -1,3 +1,7 @@
+https://www.youtube.com/watch?v=W-N2ltgU-X4
+
+https://www.geeksforgeeks.org/difference-between-throw-and-throws-in-java/
+
 
 -------------------------------EXCEPTION --------------
 
@@ -17,6 +21,10 @@ exceptions that are not checked by compiler @runttime Eg: arithmetic exception
 FULLY CHECKED EXCEPTION: if and only if all it's child classes are chcked. eg: io exception 
 
 PARTIALLY CHECKED EXCEPTION : if all it's child classes are unchecked . eg: exception , throwable 
+
+
+
+
 
 ![image](https://github.com/ragaPriya224/Dru23Batch1/assets/90038032/26363467-c6c9-4a92-beda-2f2e951114c0)
 
