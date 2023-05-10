@@ -41,5 +41,13 @@ PARTIALLY CHECKED EXCEPTION : if all it's child classes are unchecked . eg: exce
 
 -----------------------------------
 ![image](https://user-images.githubusercontent.com/90038032/220435999-5d763dd1-ecc1-41b5-9ed2-76f4be77b325.png)
+------------------------------CREATE CUSTOM CHECKED EXCEPTION-------
+
+![image](https://github.com/ragaPriya224/Dru23Batch1/assets/90038032/e3ac4bcb-648c-4bae-90d1-26c2c2138787)
+
+--------------------------------CREATE CUSTOM UNCHECKED EXCEPTION ------------
+
+![image](https://github.com/ragaPriya224/Dru23Batch1/assets/90038032/03f276f3-cbf0-4bb3-a6a1-cd48af9909b4)
+
 -------------------------------------
 
