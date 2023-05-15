@@ -9,6 +9,10 @@ lambda expression: https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/
                     https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/java8_DifferentLambdaSyntax.png
 
 functional interface: https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/java8_interfaceTypes.jpg
+
+   what is FI? :  https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/java8_functionalInterface_whatIs.pdf
+
+    y @functionalInterface :  https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/java8_FI_y_annotation.pdf
   
  default and static methods: 
  
