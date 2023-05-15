@@ -8,4 +8,12 @@ lambda expression: https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/
 
 functional interface: https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/java8_interfaceTypes.jpg
   
-                      
+ default and static methods: 
+ 
+      default methods: https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/java8_defaultMethod_why.pdf
+      
+      static vs default: https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/java8_staticVsdefault.pdf
+      
+optional use: https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/java8_optional_use.pdf
+
+streams: streams vs collections: https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/java8_streamVsCollections.pdf
