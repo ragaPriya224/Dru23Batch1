@@ -6,6 +6,8 @@ JAVA8 FEATURES:
 
 lambda expression: https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/java8_lambdaExpression.jpg
 
+                    https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/java8_DifferentLambdaSyntax.png
+
 functional interface: https://github.com/ragaPriya224/Dru23Batch1/blob/master/java/java8_interfaceTypes.jpg
   
  default and static methods: 
