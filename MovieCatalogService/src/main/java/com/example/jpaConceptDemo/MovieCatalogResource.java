@@ -12,22 +12,22 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class MovieCatalogResource {
 
-	
+
 	@GetMapping("/catalog/{userId}")
 	public List<CatalogItem> getCatalog(@PathVariable String userId){
 
-//		return Collections.singletonList(new CatalogItem("spiderman","saving galaxt",4)
-//				);
-		List<Rating> ratings = Arrays.asList(new Rating("222",4),
+		//		return Collections.singletonList(new CatalogItem("spiderman","saving galaxt",4)
+		//				);
+		List<Rating> ratingsList = Arrays.asList(new Rating("222",4),
 				new Rating("41",5));
 
 		RestTemplate rt = new RestTemplate();
-	Movie	a =rt.getForObject("https://localhost:8082/movie/4123", Movie.class);
-		return ratings.stream().map(rating ->{
-			return new CatalogItem("Transformer","test",4);
-			}).collect(Collectors.toList());
-		
-		
+		Movie	a =rt.getForObject("http://localhost:8082/movie/4123", Movie.class);
+		return ratingsList.stream().map(rating ->{
+			return new CatalogItem("BAAHUBALI","vengence",rating.getRating());
+		}).collect(Collectors.toList());
+
+
 		//return? movie details along with ratings
 	}
 }
