@@ -22,15 +22,24 @@ public class MovieCatalogResource {
 				new Rating("41",5));
 
 		RestTemplate rt = new RestTemplate();
-		Movie	a =rt.getForObject("http://localhost:8082/movie/4123", Movie.class);
 		return ratingsList.stream().map(rating ->{
-			return new CatalogItem("BAAHUBALI","vengence",rating.getRating());
+			Movie	m =rt.getForObject("http://localhost:8082/movie/"+rating.getMoveiId(), Movie.class);
+
+			return new CatalogItem(m.getName(),"" ,rating.getRating());
 		}).collect(Collectors.toList());
 
 
 		//return? movie details along with ratings
 	}
 }
+//
+//List<Integer> movieIdList = new ArrayList<>();
+//movieIdList.add(44);
+//movieIdList.add(99);
+//rt.getForObject("http://localhost:8080/movie/99", Movie.class);
+//rt.getForObject("http://localhost:8080/movie/44", Movie.class);
+//
+//
 
 //1 -> get all rated movie id's
 //2 -> for each movie id, call movieinfoservice and get details
