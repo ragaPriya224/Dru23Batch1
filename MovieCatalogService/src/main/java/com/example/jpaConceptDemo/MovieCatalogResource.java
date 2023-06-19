@@ -1,5 +1,6 @@
 package com.example.jpaConceptDemo;
 
+import java.lang.reflect.ParameterizedType;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -20,9 +21,9 @@ private RestTemplate rt;
 
 		//		return Collections.singletonList(new CatalogItem("spiderman","saving galaxt",4)
 		//				);
-		List<Rating> ratingsList = Arrays.asList(new Rating("222",4),
-				new Rating("41",5));
-
+//		List<Rating> ratingsList = Arrays.asList(new Rating("222",4),
+//				new Rating("41",5));
+		rt.getForObject("http://localhost:8083/ratingsdata/users/"+userId,ParameterizedType<List<Rating>>);
 		
 		return ratingsList.stream().map(rating ->{
 			Movie	m =rt.getForObject("http://localhost:8082/movie/"+rating.getMoveiId(), Movie.class);
