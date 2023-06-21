@@ -11,18 +11,18 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class MovieCatalogResource {
-@Autowired
-private RestTemplate rt;
+	@Autowired
+	private RestTemplate rt;
 
 	@GetMapping("/catalog/{userId}")
 	public List<CatalogItem> getCatalog(@PathVariable String userId){
 
 		//		return Collections.singletonList(new CatalogItem("spiderman","saving galaxt",4)
 		//				);
-//		List<Rating> ratingsList = Arrays.asList(new Rating("222",4),
-//				new Rating("41",5));
+		//		List<Rating> ratingsList = Arrays.asList(new Rating("222",4),
+		//				new Rating("41",5));
 		UserRating userRating = rt.getForObject("http://localhost:8083/ratingsdata/users/"+userId,UserRating.class);
-		
+
 		return userRating.getUserRating().stream().map(rating ->{
 			Movie	m =rt.getForObject("http://localhost:8082/movie/"+rating.getMoveiId(), Movie.class);
 
@@ -32,6 +32,8 @@ private RestTemplate rt;
 
 		//return? movie details along with ratings
 	}
+
+	
 }
 //
 //List<Integer> movieIdList = new ArrayList<>();
