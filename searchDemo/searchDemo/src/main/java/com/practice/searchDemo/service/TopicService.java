@@ -28,11 +28,11 @@ public class TopicService {
 	public  void  addTopic(Topic topic){
 		topicRepository.save(topic);
 	}
-	
-//	public Page<Topic> findByPage(Optional<Integer> pageParam, Optional<String> sortBy) {
-//		// TODO Auto-generated method stub
-//		return	topicRepository.findAll(PageRequest.of(pageParam.orElse(0), 3,
-//				Direction.ASC,sortBy.orElse("id")));
-//	}
+	public List<Topic> searchProducts(String query) {
+		System.out.println(query);
+		List<Topic> output = topicRepository.searchTopic(query);
+		System.out.println(output);
+		return output;
+	}
 }
 
