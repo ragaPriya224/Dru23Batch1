@@ -9,16 +9,16 @@ import org.springframework.context.annotation.Configuration;
 @ConfigurationProperties("my")
 public class UserConfig {
 	
-	private Integer greeting;
+	private String greeting;
 	
 //	@Value("#{list.names}")
 //	private List<String>  nameList;
 
-	public Integer getGreeting() {
+	public String getGreeting() {
 		return greeting;
 	}
 
-	public void setGreeting(Integer greeting) {
+	public void setGreeting(String greeting) {
 		this.greeting = greeting;
 	}
 

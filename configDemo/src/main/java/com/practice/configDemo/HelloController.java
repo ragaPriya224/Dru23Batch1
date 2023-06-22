@@ -20,8 +20,8 @@ public class HelloController {
 	@Value("${my.list.names: notfound}")
 	public List<String> nameList;
 	
-	@Value("#{${dbDetails}}")
-	public Map<String,String> dbMap;
+//	@Value("#{${dbDetails}}")
+//	public Map<String,String> dbMap;
 	
 	@GetMapping("/hello")
 	public String sayHi() {
@@ -36,9 +36,9 @@ public class HelloController {
 	public List<String> getNames() {
 		return nameList;
 	}
-	@GetMapping("/helloDbUser")
-	public Map<String,String> showDetail() {
-		return dbMap;
-	}
+//	@GetMapping("/helloDbUser")
+//	public Map<String,String> showDetail() {
+//		return dbMap;
+//	}
 
 }
