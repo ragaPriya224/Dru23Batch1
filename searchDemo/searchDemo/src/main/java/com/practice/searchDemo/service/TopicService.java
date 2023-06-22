@@ -34,5 +34,15 @@ public class TopicService {
 		System.out.println(output);
 		return output;
 	}
+	public Page<Topic> getProductsByPage(Optional<Integer> pageParam, Optional<String> sortBy) {
+//		int page, int size, Direction direction, String... properties
+		return	topicRepository.findAll(
+				PageRequest.of(
+						pageParam.orElse(0),  //page number
+						3, //3 records per page
+				Direction.ASC, //Direction
+				sortBy.orElse("id"))); // sort based on column
+	}
+
 }
 

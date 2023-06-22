@@ -1,8 +1,10 @@
 package com.practice.searchDemo.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -35,6 +37,13 @@ public class TopicController {
 		System.out.println("---------------");
 		return ResponseEntity.ok(topicService.searchProducts(query));
 	}
-
+	
+	//localhost:8080/topics/page?pageNo=1&sort=name
+	@GetMapping("/topics/page")
+	public  Page<Topic>  getTopicsByPage(
+			@RequestParam("pageNo") Optional<Integer> pageParam,
+			@RequestParam("sort") Optional<String>  sortBy){
+		return topicService.getProductsByPage(pageParam,sortBy);
+	}
 
 }
