@@ -1,11 +1,14 @@
 package com.druDemo.jdbctemplateDemo.dao;
 
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.dao.DataAccessException;
+import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Component;
@@ -45,7 +48,7 @@ public class CourseJdbcDAO {
 
 		return Optional.ofNullable(course);
 	}
-	
+
 	public void create(Course course) {
 		String sql = "INSERT INTO course values (?,?,?,?)";
 		int output = jdbcTemplate.update(sql,course.getCourseId(),course.getTitle(),
@@ -70,6 +73,26 @@ public class CourseJdbcDAO {
 		if(output == 1) {
 			log.info("delete course is created with id: "+id);	
 		}
+	}
+
+	public int[] batchUpdateUsingJdbcTemplate(List<Course> courseList) {
+		return jdbcTemplate.batchUpdate("INSERT INTO Course VALUES (?, ?, ?, ?)",
+				new BatchPreparedStatementSetter() {
+			@Override
+			public void setValues(PreparedStatement ps, int i) throws SQLException {
+				if(i < courseList.size()){
+					ps.setInt(1, courseList.get(i).getCourseId());
+					ps.setString(2, courseList.get(i).getTitle());
+					ps.setString(3, courseList.get(i).getDescription());
+					ps.setString(4, courseList.get(i).getLink());
+				}
+			}
+
+			@Override
+			public int getBatchSize() {
+				return 50;
+			}
+		});
 	}
 
 
