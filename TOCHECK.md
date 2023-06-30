@@ -21,9 +21,9 @@ https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-
 https://blog.devgenius.io/java-8-coding-and-programming-interview-questions-and-answers-62512c44f062
 
 
- Training Topics
+						 Training Topics
 
-Core Java
+					Core Java
 		
 Language Basics	
 
@@ -45,7 +45,7 @@ Multi threading
 
 Performance monitoring	
 		
-Spring boot
+						Spring boot
 		
 	
 Rest APIs, Http Verbs
@@ -60,7 +60,7 @@ Spring Transactions - Used for Database interaction via direct jdbc way (JdbcTem
 
 Spring AOP  - Used for logging and exception handling
 
-Spring Cloud
+						Spring Cloud
 		
 Spring Cloud	Eureka	
 
