@@ -25,43 +25,66 @@ https://blog.devgenius.io/java-8-coding-and-programming-interview-questions-and-
 
 Core Java
 		
-Language Basics		
+Language Basics	
+
 OOPS		
-Access modifiers		
-Inner classes		
+
+Access modifiers
+
+Inner classes	
+
 Anonymous classes
 		
 Collections		
-Streams		
-Java 8 new features		
+
+Streams
+
+Java 8 new features
+
 Multi threading	
+
 Performance monitoring	
 		
 Spring boot
 		
 	
 Rest APIs, Http Verbs
+
 Sprng Jdbc	
+
 Spring JPA	
+
 Spring Rest template - Used to call other micro services using DiscoveryClient	
+
 Spring Transactions - Used for Database interaction via direct jdbc way (JdbcTemplate)	
+
 Spring AOP  - Used for logging and exception handling
 
 Spring Cloud
 		
 Spring Cloud	Eureka	
-Spring Config server		
+
+Spring Config server	
+
 Resilience4j	
+
 	
-                  SQL ( Postgres )		
+                  SQL ( Postgres )
+		  
 Basic Queries, Joins
+
 Functions	
+
 Views	
+
 
 						Miscellaneous
 
 Postman testing	
+
 Swagger	
-Unit testing for Spring boot			
+
+Unit testing for Spring boot	
+
 JVM basics
 		
