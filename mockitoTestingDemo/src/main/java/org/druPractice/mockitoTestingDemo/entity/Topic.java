@@ -1,5 +1,8 @@
 package org.druPractice.mockitoTestingDemo.entity;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Topic {
 	private String id; 
 

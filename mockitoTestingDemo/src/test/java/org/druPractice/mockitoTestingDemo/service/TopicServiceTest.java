@@ -27,7 +27,7 @@ public class TopicServiceTest {
 	public void getAllTopicsTest() {
 		System.out.println("TESTINGGGG");
 		List<Topic> topicList = new ArrayList<Topic>();
-		topicList.add(new Topic("1","abc","des",22));
+		topicList.add(new Topic("1","abc","des",25));
 		when(topicRepository.findAll()).thenReturn(topicList);
 		List<Topic> outputList = topicService.getAllTopic();
 		assertEquals(1, outputList.size());

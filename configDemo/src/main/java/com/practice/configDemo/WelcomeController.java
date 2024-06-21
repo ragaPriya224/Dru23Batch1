@@ -11,6 +11,8 @@ public class WelcomeController {
 	
 	@Autowired
 	UserConfig userConfig;
+	
+	
 //	@Value("${my.greeting}")
 //	public String greetingMsg;
 //	
@@ -20,7 +22,7 @@ public class WelcomeController {
 	
 	
 	@GetMapping("/welcome")
-	public Integer sayHi() {
+	public String sayHi() {
 		return userConfig.getGreeting();
 	}
 	

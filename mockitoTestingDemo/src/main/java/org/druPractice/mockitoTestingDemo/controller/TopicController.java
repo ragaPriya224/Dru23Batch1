@@ -25,27 +25,27 @@ public class TopicController {
 	public List<Topic> getAllTopic() {
 		return topicService.getAllTopic();
 	}
-	
-	@GetMapping("/topic/{id}")
-	public  Topic   getTopic(@PathVariable String id) {
-		return topicService.getTopic(id);
-	}
-	
-	@PostMapping("/topic")
-	public void addTopic(@RequestBody Topic topic) {
-		topicService.addTopic(topic);
-	}
-	
-	@DeleteMapping("topic/{id}")
-	public void deleteTopic(@PathVariable String id) {
-		topicService.deleteTopic(id);
-	}
-
-	@PutMapping("topic/{id}")
-	public void updateTopic(@RequestBody Topic topic,
-			@PathVariable String id) {
-		topicService.updateTopic(topic,id);
-	}
+//	
+//	@GetMapping("/topic/{id}")
+//	public  Topic   getTopic(@PathVariable String id) {
+//		return topicService.getTopic(id);
+//	}
+//	
+//	@PostMapping("/topic")
+//	public void addTopic(@RequestBody Topic topic) {
+//		topicService.addTopic(topic);
+//	}
+//	
+//	@DeleteMapping("topic/{id}")
+//	public void deleteTopic(@PathVariable String id) {
+//		topicService.deleteTopic(id);
+//	}
+//
+//	@PutMapping("topic/{id}")
+//	public void updateTopic(@RequestBody Topic topic,
+//			@PathVariable String id) {
+//		topicService.updateTopic(topic,id);
+//	}
 }
 
 

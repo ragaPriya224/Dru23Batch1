@@ -14,7 +14,7 @@ public class HelloController {
 	@Value("${my.greeting}")
 	public String greetingMsg;
 	
-	@Value("${my.name: notfound}")
+	@Value("${my.name: not present}")
 	public String userName;
 	
 	@Value("${my.list.names: notfound}")

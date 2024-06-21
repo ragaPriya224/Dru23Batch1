@@ -1,6 +1,9 @@
 server.port : 8089
+
 my:
   greeting : goodMorning
   user     : abc
   list:
     names: praveen,prasanna,eswar,shubham
+db:
+   credentials:abc
